@@ -1,0 +1,112 @@
+@keyframes AnimationName { 
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+body{
+    background: linear-gradient(150deg, #29FFA2, #80BFC9, #29FFA2, #80BFC9);
+    animation: AnimationName 10s ease infinite;
+    background-size: 800% 800%;
+}
+#appr{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+/*    justify-content: center;*/
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    
+}
+#menu6{
+    width:100%;
+    height: 180px;
+/*background-color: azure;*/
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+#back6{
+    width: 30%;
+    height:160px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*background-color: #d49aff;*/
+/*margin-left: 30px;*/
+}
+#back6 p{
+    font-family: JBC;
+    font-size: 45pt;
+    color: white;
+}
+#back6 img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+#backtokalorie6{
+    width:15%;
+    height: 200px;
+/*background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 550px;
+}
+#backtokalorie6 img{
+    width: 60px;
+    height: 210px;
+}
+#foodname p{
+    font-family: JB;
+    font-size: 80pt;
+    color: white;
+    margin-bottom: 80px;
+}
+#optionholderr{
+    width: 100%;
+    height: 3602px;
+/*    background-color: wheat;*/
+/*    margin-top: 80px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#recipebox{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    margin-top: 100px;
+border-top-left-radius: 90px;
+border-top-right-radius: 90px;
+}
+#recipesection p{
+    font-family: SFSB;
+    font-size: 60pt;
+    color: #31b98b;
+    margin-left: 80px;
+}
+#recipeimage {
+margin: 70px;    
+}
+#recipeimage img{
+    width: 100%;
+}
+#ingridiens{
+    margin: 90px;
+}
+#ingridiens ul{
+    font-family: JBC;
+    font-size: 30pt;
+    color: black;
+
+}
+#ingridiens li{
+    line-height: 80px;
+}
+
+

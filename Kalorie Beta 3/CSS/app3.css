@@ -1,0 +1,130 @@
+@keyframes AnimationName { 
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+#app3{
+    width:100vw;
+    height:100vh;
+/*    background-color: #ffbdbd;*/
+    position: absolute;
+    margin-left:120vw;
+    top: 0px;
+/*    margin-top: 4827px;*/
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    
+/*    display: none;*/
+}
+#rabbitear3{
+    width:100%;
+    height:40px;
+}
+#menu3{
+    width:100%;
+    height: 180px;
+/*    background-color: azure;*/
+    align-items: center;
+    display: flex;
+}
+#back3{
+    width: 30%;
+    height:160px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*    background-color: #d49aff;*/
+    margin-left: 3vw;
+}
+#back3 p{
+    font-family: JBC;
+    font-size: 55pt;
+    color: #00AEEF;
+}
+#back3 img{
+    width: 50px;
+    height: 50px;
+    margin-right: 3vw;
+}
+#backtokalorie3{
+    width:15%;
+    height: 200px;
+/*    background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 45vw;
+}
+#backtokalorie3 img{
+    width: 80px;
+    height: 230px;
+}
+#questiontitle3{
+    width:100%;
+    height: 15%;
+/*    background-color: rgba(255, 228, 196, 0.67);*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#questiontitle3 p{
+    font-family: JB;
+    font-size: 70pt;
+    text-align: center;
+}
+#optionholder3{
+    width:100%;
+    height: 1327px;
+/*    background-color: antiquewhite;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#optionbox13, #optionbox23{
+    width: 675px;
+    height: 40%;
+    background-color: white;
+    margin: 60px;
+    border-radius:90px;
+    display: flex;
+    flex-direction: column;
+}
+#optionbox13{
+    background-color: aquamarine;
+    background: linear-gradient(150deg, rgb(72, 254, 172), rgb(57, 196, 226));
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+}
+#optionbox23{
+    background-color: aquamarine;
+    background: linear-gradient(150deg, rgb(181, 115, 254), rgb(234, 6, 132));
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+}
+#iconbox3{
+    flex: 3;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+/*    background-color: white;*/
+}
+#iconbox3 img{
+    width: 35%;
+    margin-top: 60px;
+}
+#namebox3{
+    flex: 1;
+/*    background-color: rgba(255, 255, 255, 0.78);*/
+}
+#namebox3 p{
+    font-family: JBC;
+    font-size: 50pt;
+    text-align: center;
+    line-height: 5px;
+    color: white;
+    margin-bottom: 115px;
+}

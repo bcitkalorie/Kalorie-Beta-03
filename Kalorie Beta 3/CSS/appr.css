@@ -1,0 +1,167 @@
+@keyframes AnimationName { 
+    0%{background-position:0% 20%}
+    50%{background-position:100% 81%}
+    100%{background-position:0% 20%}
+}
+
+#appr{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+/*    justify-content: center;*/
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 4500px;
+    background: linear-gradient(150deg, #29FFA2, #80BFC9, #29FFA2, #80BFC9);
+    animation: AnimationName 10s ease infinite;
+    background-size: 800% 800%;
+    
+}
+#menu6{
+    width:100%;
+    height: 180px;
+/*background-color: azure;*/
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+#back6{
+    width: 30%;
+    height:160px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+/*background-color: #d49aff;*/
+/*margin-left: 30px;*/
+}
+#back6 p{
+    font-family: JBC;
+    font-size: 45pt;
+    color: white;
+}
+#back6 img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+#backtokalorie6{
+    width:15%;
+    height: 200px;
+/*background-color: bisque;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 550px;
+}
+#backtokalorie6 img{
+    width: 60px;
+    height: 210px;
+}
+#recipes p{
+    font-family: JB;
+    font-size: 80pt;
+    color: white;
+    margin-bottom: 80px;
+}
+#optionholderr{
+    width: 100%;
+    height: 3602px;
+/*    background-color: wheat;*/
+/*    margin-top: 80px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#optionbox16, #optionbox26, #optionbox36, #optionbox46{
+    width: 750px;
+    height: 750px;
+    background-color: white;
+    margin: 40px;
+    border-radius:90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: rgb(180, 180, 180);
+    border-width: thick;
+    border-style:solid;
+}
+#iconr{
+    margin-top: 50px;
+}
+#iconr img{
+    width: 150px;
+    height: 250px;
+}
+#itemname p{
+    text-align: center;
+    font-family: JB;
+    font-size: 60pt;
+    color: #31b98b;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#fooddetails{
+    width: 80%;
+    height: 35%;
+/*    background-color: wheat;*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 20pt;
+}
+#cooktime, #preptime, #cals{
+    flex: 1;
+    justify-content: center;
+}
+#number p{
+    font-family: JB;
+    font-size: 70pt;
+    color: #31b98b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#text p{
+    font-family: JBC;
+    font-size: 30pt;
+    color: #31b98b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#optionbox46w {
+   color: 00B39C;
+    background: linear-gradient(127deg, rgb(251, 226, 255), #FDEAFF);
+    animation: AnimationName 5s ease infinite;
+    background-size: 800% 800%;
+    border-color: 00B39C;
+    border-width: thick;
+    border-style:solid;
+    width: 750px;
+    height: 350px;
+    border-radius: 90px;
+    margin-top: -60px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#descriptionw p{
+    font-family: JBC;
+    font-size: 70pt;
+    text-align: center;
+    margin-left: 100px;
+    color: #830BB6;
+}
+#activityicon{
+    flex: 2;
+/*    background-color: #00AEEF;*/
+    display: flex;
+    margin-left: 60px
+}
+#activityicon img{
+width: 100%;
+}

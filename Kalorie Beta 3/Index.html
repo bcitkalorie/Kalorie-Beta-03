@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" src="images/Kalorie%20app.svg">
+    <link href="CSS/fonts.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app1.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app2.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app3.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app4.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app5.css" type="text/css" rel="stylesheet">
+    <link href="CSS/app6.css" type="text/css" rel="stylesheet">
+    
+    <title>Kalorie</title></head>
+<body>
+    <link rel="icon" src="images/Kalorie%20app.svg">
+    <div id="app1">
+        <div id="rabbitear1"></div>
+        <div id="bigtitle">
+            <p>Welcome to Kalorie</p>
+        </div>
+        <div id="imagebox">
+            <img src="images/Kalorie%20Logo%20White.svg">
+        </div>
+        <div id="descriptionsbox">
+            <p>With some time and patience,<br> Kalorie will help you achieve your <br> goals a little bit easier!</p>
+        </div>
+        <div id="letsgo" onclick="gotoapp2()">
+            <p>Let's Go!</p>
+        </div>
+    </div>
+    
+<!--    APP 2-->
+    
+    <div id="app2">
+        <div id="rabbitear2"></div>
+        <div id="menu2">
+            <div id="back2" onclick="gotoapp1()">
+                <img src="images/Arrow%20up.svg">
+                <p>Back</p>
+            </div>
+            <div id="backtokalorie2" onclick="gotoapp1()">
+                <img src="images/Kalorie%20Logo%20Color.svg">
+            </div>
+                
+        </div>
+        <div id="questiontitle2">
+            <p> What is your<br> Body type?</p>
+        </div>
+        <div id="optionholder2">
+            
+            <div id="optionbox12" onclick="gotoapp3()">
+                <div id="iconbox2">
+                    <img src="images/Avarge%20Weight.svg">
+                </div>
+                <div id="namebox2">
+                    <p>Average</p>
+                </div>
+            </div>
+           
+            <div id="optionbox22" onclick="gotoapp3()">
+                <div id="iconbox2">
+                    <img src="images/Overweight.svg">
+                </div>
+                <div id="namebox2">
+                    <p>Overweight</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--    APP 3 -->
+    
+    <div id="app3">
+        <div id="rabbitear3"></div>
+        <div id="menu3">
+            <div id="back3" onclick="backtoapp2()">
+                <img src="images/Arrow%20up.svg">
+                <p>Back</p>
+            </div>
+            <div id="backtokalorie3">
+                <img src="images/Kalorie%20Logo%20Color.svg">
+            </div>
+        </div>
+        <div id="questiontitle3">
+            <p> What is your<br> Goal with Kalorie?</p>
+        </div>
+        <div id="optionholder3">
+            <div id="optionbox13">
+                <div id="iconbox3">
+                    <img src="images/Living%20healthy.svg">
+                </div>
+                <div id="namebox3" onclick=" Changegoal('healthy')">
+                    <p>Living Healthy</p>
+                </div>
+            </div>
+            <a href="APP%204.html" style="text-decoration: none;">
+            <div id="optionbox23">
+                <div id="iconbox3">
+                    <img src="images/Lose%20Weight.svg">
+                </div>
+                <div id="namebox3">
+                    <p>Losing Weight</p>
+                </div>
+            </div></a>
+        </div>
+    </div>
+    
+<!--    APP 4-->
+    
+    
+    <div id="app4">
+        <div id="rabbitear4"></div>
+        <div id="menu4">
+            <a href="APP%203.html" style="text-decoration: none; margin-left: 120px;">
+            <div id="back4">
+                <p>Back</p>
+                <img src="images/Arrow%20up.svg">
+                </div></a>
+            <a href="Index.html">
+            <div id="backtokalorie4">
+                <img src="images/Kalorie%20Logo%20Color.svg">
+                </div></a>
+        </div>
+        <div id="questiontitle4">
+            <p> What is your<br> Activity level?</p>
+        </div>
+        <div id="optionholder4">
+            
+            <div id="optionbox14">
+                <div id="activityicon">
+                    <img src="images/Low.svg">
+                </div>
+                <div id="description">
+                    <p>Low</p>
+                </div>
+                </div>
+           
+            <div id="optionbox24">
+                <div id="activityicon">
+                    <img src="images/Meddium.svg">
+                </div>
+                <div id="description">
+                    <p>Medium</p>
+                </div>
+                </div>
+            
+            <div id="optionbox34">
+                <div id="activityicon">
+                    <img src="images/High.svg">
+                </div>
+                <div id="description">
+                    <p>High</p>
+                </div>
+                </div>
+            
+            <div id="optionbox44">
+                <div id="activityicon">
+                    <img src="images/Extreme.svg">
+                </div>
+                <div id="description">
+                    <p>Extreme</p>
+                </div>
+                </div>
+        </div>
+    </div>
+    
+<!--    APP 5-->
+    
+    <div id="app5">
+        <div id="rabbitear5"></div>
+        <div id="questiontitle5">
+            <p> Calculating...</p>
+        </div>
+        <div id="flower">
+            <img src="images/Flower@10x.png">
+        </div>
+        
+    </div>
+    
+    
+<!--    APP 6-->
+    
+    <div id="app6">
+        <div id="rabbitear6"></div>
+        <div id="menu6">
+            <a href="APP%204.html" style="text-decoration: none; margin-left: 120px;">
+            <div id="back6">
+                <p>Back</p>
+                <img src="images/Arrow%20up.svg">
+                </div></a>
+            <a href="Index.html">
+            <div id="backtokalorie6">
+                <img src="images/Kalorie%20Logo%20Color.svg">
+                </div></a>
+        </div>
+        <div id="questiontitle6">
+            <p> We've found a solution for you!</p>
+        </div>
+        <div id="caption6">
+            <p>We found some great recipes and <br>exercise based on your:</p>
+        </div>
+        <div id="optionholder6">
+            <div id="optionbox16">
+                <div id="description1">
+                    <p>Ararge Weight</p>
+                </div>
+            </div>
+            <div id="optionbox26">
+                <div id="description2">
+                    <p>Loosing Weight</p>
+                </div>
+            </div>
+            <div id="optionbox36">
+                <div id="description3">
+                    <p>High activity level</p>
+                </div>
+            </div>
+        <div id="caption6">
+            <p>Here are some workouts and recipes  <br>for you:</p>
+        </div>
+        </div>
+        <div id="targetholder6">
+    
+            <div id="optionbox46">
+                <div id="description">
+                    <p>Recipes</p>
+                </div>
+                 <div id="activityicon">
+                    <img src="images/Recipe%20arrow.svg">
+                </div>
+                </div>
+        
+            <div id="optionbox56">
+                <div id="description">
+                    <p>Workouts</p>
+                </div>
+                <div id="activityicon">
+                    <img src="images/Workout%20arrow.svg">
+                </div>
+                </div>
+        </div>
+    </div>
+    
+    
+    <script src="JS/app.js"></script>
+    </body>
+
+</html>
